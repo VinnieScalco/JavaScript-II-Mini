@@ -21,7 +21,9 @@ Animal.prototype.grow = function() {
 // instances of Cat should also have access to the 'grow' method
 
 function Cat(options) {
+
   // invoke Animal here with .call
+
   Animal.call(this, options);
 }
 
