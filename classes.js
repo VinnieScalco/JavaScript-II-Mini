@@ -7,7 +7,7 @@ class Animal {
         this.name = options.name;
     }
     
-    grow(name) {
+    grow() {
         console.log(`${this.name} grew larger!`);
     }
 }
